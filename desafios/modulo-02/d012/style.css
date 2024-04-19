@@ -7,8 +7,9 @@
     padding: 0px;
 }
 
-body {
-    background-color: gray;
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
     font-family: 'Sriracha', sans-serif;
 }
 
@@ -17,33 +18,39 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 10px;
 }
 
 header h1 {
+    padding-top: 50px;
     font-size: 3.0em;
 }
 
 header p {
+    padding-bottom: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header a {
+a {
     font-weight: bold;
     color: white;
     text-decoration: none;
 }
 
-header a:hover {
+a:hover {
     text-decoration: underline;
 }
 
 section {
-    padding: 50px 20px;
+    padding: 10vh 30px;
+    line-height: 4em;
 }
 
 section.normal {
     background-color: white;
+}
+
+section.imagem {
+    color: white;
 }
 
 section > p {
@@ -53,9 +60,6 @@ section > p {
 
 .imagem > p {
     background-color: rgba(0, 0, 0, 0.426);
-    color: white;
-    
-    padding: 15px 5px;
 }
 
 #img01 {
@@ -81,12 +85,3 @@ footer {
     text-align: center;
     padding: 5px;
 }
- footer a {
-    font-weight: bold;
-    text-decoration: none;
-    color: white;
- }
-
- footer a:hover {
-    text-decoration: underline;
- }
