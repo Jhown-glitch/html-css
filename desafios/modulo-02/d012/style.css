@@ -7,14 +7,20 @@
     padding: 0px;
 }
 
+:root {
+    --fonte-padrao: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte-01: "Passion One", sans-serif;
+    --fonte-02: "Sriracha", cursive;
+}
+
 html, body {
     min-height: 100vh;
     background-color: darkgray;
-    font-family: 'Sriracha', sans-serif;
+    font-family: var(--fonte-padrao);
 }
 
 header {
-    font-family: 'Passion One', sans-serif;
+    font-family: var(--fonte-01);
     background-color: black;
     color: white;
     text-align: center;
@@ -27,7 +33,7 @@ header h1 {
 
 header p {
     padding-bottom: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--fonte-padrao);
 }
 
 a {
@@ -43,6 +49,7 @@ a:hover {
 section {
     padding: 10vh 30px;
     line-height: 4em;
+    font-family: var(--fonte-02);
 }
 
 section.normal {
@@ -56,6 +63,7 @@ section.imagem {
 section > p {
     max-width: 300px;
     font-size: 1.5em;
+    padding-left: 15px;
 }
 
 .imagem > p {
