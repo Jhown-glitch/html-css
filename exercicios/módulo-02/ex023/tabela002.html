@@ -14,6 +14,7 @@
             border-collapse: collapse;
             width: 400px;
             height: 240px;
+            position: relative;
         }
 
         caption {
@@ -31,6 +32,12 @@
         thead, tfoot {
             background-color: rgb(21, 26, 151);
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(21, 26, 151);
         }
 
         th, td {
