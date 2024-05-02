@@ -16,17 +16,34 @@
             height: 240px;
         }
 
+        caption {
+            text-align: center;
+            width: 400px;
+            padding: 25px;
+            background-color: rgb(57, 87, 255);
+            font-weight: bold;
+        }
+
         thead, tbody, tfoot {
             border: 1px solid black;
         }
 
         thead, tfoot {
-            background-color: lightgray;
+            background-color: rgb(21, 26, 151);
+            color: white;
         }
 
         th, td {
             border: 1px solid black;
             padding: 5px;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: rgba(255, 255, 0, 0.658);
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: rgba(0, 128, 0, 0.641);
         }
 
         .numero {
@@ -40,6 +57,7 @@
     <!--
         ANATOMIA DE TABELAS GRANDES
         TABLE
+            CAPTION
             THEAD
                 TR, TD, TH
             TBODY
@@ -48,9 +66,10 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>População das Unidades Federativas do Brasil</caption>
         <thead>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col">População</th>
         </thead>
         <tbody>
             <tr>
@@ -164,7 +183,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <strong>
                     <td class="numero">204.060.756</td>
                 </strong>
