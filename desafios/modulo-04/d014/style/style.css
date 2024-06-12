@@ -1,0 +1,26 @@
+body {
+    background-image: url(../images/fundo-madeira.jpg);
+    height: 100vh;
+}
+
+main {
+    position: relative;
+}
+
+div {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+img.botao {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}
+
+#img1 {
+    top: 58px;
+    left: 1551px;
+}
