@@ -1,16 +1,33 @@
+@charset "UTF-8";
+
 body {
     background-image: url(../images/fundo-madeira.jpg);
     height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 main {
     position: relative;
+    width: 100vw;
+    height: 100vh;
 }
 
-div {
-    margin: auto;
-    display: flex;
-    justify-content: center;
+section#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+iframe {
+    background-color: white;
+    height: 470px;
+    width: 268px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 img.botao {
@@ -21,6 +38,30 @@ img.botao {
 }
 
 #img1 {
-    top: 58px;
-    left: 1551px;
+    top: 5%;
+    left: 90%;
+}
+
+#img2 {
+    top: 17%;
+    left:
+     90%;
+}
+#img3 {
+    top: 29%;
+    left: 90%;
+}
+
+#img4 {
+    top: 41%;
+    left: 90%;
+}
+
+#img5 {
+    top: 53%;
+    left: 90%;
+}
+#img6 {
+    top: 65%;
+    left: 90%;
 }
