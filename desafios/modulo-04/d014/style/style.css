@@ -31,39 +31,19 @@ iframe {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+#redes {
+    width: 66px;
+    height: fit-content;
+}
 
-img.botao {
+#redes img.botao {
     border-radius: 50%;
+    width: 50px;
+    margin: 5px;
+}
+
+#redes img:hover {
     width: 60px;
-    height: 60px;
-    position: absolute;
+    transition: .5s;
 }
 
-#img1 {
-    top: 5%;
-    left: 90%;
-}
-
-#img2 {
-    top: 17%;
-    left:
-     90%;
-}
-#img3 {
-    top: 29%;
-    left: 90%;
-}
-
-#img4 {
-    top: 41%;
-    left: 90%;
-}
-
-#img5 {
-    top: 53%;
-    left: 90%;
-}
-#img6 {
-    top: 65%;
-    left: 90%;
-}
